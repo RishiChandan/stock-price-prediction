@@ -17,5 +17,5 @@ This project predicts the **next day's closing stock price** using an **LSTM (Lo
 ## 🛠 Installation & Usage
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/stock-price-prediction.git
+git clone https://github.com/RishiChandan/stock-price-prediction.git
 cd stock-price-prediction
