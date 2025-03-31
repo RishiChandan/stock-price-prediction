@@ -7,7 +7,6 @@ from sklearn.metrics import mean_squared_error
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 
-# Fetch stock data (Example: Apple - AAPL)
 stock_symbol = 'AAPL'
 stock_data = yf.download(stock_symbol, start='2020-01-01', end='2024-01-01')
 
