@@ -13,7 +13,6 @@ stock_data = yf.download(stock_symbol, start='2020-01-01', end='2024-01-01')
 # Display first few rows
 print(stock_data.head())
 
-# Calculate Moving Averages
 stock_data['SMA_50'] = stock_data['Close'].rolling(window=50).mean()
 stock_data['SMA_200'] = stock_data['Close'].rolling(window=200).mean()
 stock_data['EMA_50'] = stock_data['Close'].ewm(span=50, adjust=False).mean()
